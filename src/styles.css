@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  min-height: 100vh; 
+  margin: 0; 
+  background-color: #ffa833 ;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  margin: 5px;
+  padding: 10px;
+  width: 80%;
+}
+
+input[type="file"] {
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px; 
+  width: 150px; 
+  text-align: center;
+}
+
+.item-image {
+  width: 100px; 
+  height: 100px; 
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.item-details {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  color: #333;
+}
